@@ -1,11 +1,11 @@
 package com.bus;
 
 public class Bus {
+	
 	String name;
 	double price;
 	
-	public Bus() {
-		
+	public Bus() {	
 	}
 
 	public Bus(String name, double price) {
