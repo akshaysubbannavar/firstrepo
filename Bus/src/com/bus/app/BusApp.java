@@ -25,11 +25,11 @@ public class BusApp {
 //			System.out.println(b);
 //		}
 		
-//		List<Bus> busList = busDao.find("vrl");
-//		
-//		for(Bus b : busList) {
-//			System.out.println(b);
-//		}
+		List<Bus> busList = busDao.find("vrl");
+		
+		for(Bus b : busList) {
+			System.out.println(b);
+		}
 		
 		List<Bus> minFareBusList = busDao.fetchLowestFareBus();
 		
