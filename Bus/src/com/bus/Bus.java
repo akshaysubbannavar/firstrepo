@@ -1,6 +1,5 @@
 package com.bus;
 
-//Bus pojo
 public class Bus {
 	
 	String name;
