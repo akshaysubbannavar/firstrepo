@@ -2,11 +2,11 @@ package com.bus;
 
 //Bus pojo
 public class Bus {
+	
 	String name;
 	double price;
 	
-	public Bus() {
-		
+	public Bus() {	
 	}
 
 	public Bus(String name, double price) {
